@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    border:0;
+    box-sizing:border-box;
+}
+body{
+    background-color: hsl(216, 12%, 8%);
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.main{
+    width: 380px;
+    height: 380px;
+    background-color:hsl(213, 19%, 15%) ;
+    border-radius:20px;
+    padding: 0.1em 0px 0px 25px;
+    background-image:linear-gradient(hsla(213, 7%, 30%, 0.234),hsl(213, 19%, 14%));
+}
+.header{
+    margin:40px 0px 20px 0px;
+    width: 40px;
+    height: 40px;
+    background-color: hsl(213, 19%, 20%);
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+h1{
+    font-family:Overpass;
+    margin-bottom:5px;
+}
+p{
+    font-family:Overpass;
+    font-size: 15px;
+    color:hsl(217, 12%, 63%);
+    margin-top: 1rem;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-right: 30px;
+}
+.menu li{
+    margin:2rem 10px ;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: hsl(213, 19%, 18%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:Overpass;
+    color: hsl(217, 12%, 63%);
+    font-weight: 500;
+    cursor: pointer;
+}
+#submit{
+    margin: -10px 0px 0px 10px;
+    width:300px;
+    height:40px;
+    border-radius: 20px;
+    letter-spacing:3px ;
+    font-family:Overpass;
+    font-weight:700;
+    background-color:hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: hsl(25, 97%, 58%);
+}
+
+li {
+    cursor: pointer;
+  }
+
+li.selected {
+    background-color: hsl(213, 19%, 30%);
+}
+
+#headText.thankyou{
+    display:flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-right:20px;
+}  
+header.imgthank{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: -20px;
+    margin-top: 3rem;
+}
+
+#submit.showrate{
+   width: 190px;
+   height: 28px;
+   color: hsl(25, 97%, 53%);
+   background-color:hsl(212, 12%, 20%); 
+   position: absolute;
+   top: 190px;
+   left: 84px;
+   font-family: Overpass;
+   font-weight: 400;
+   letter-spacing: 1px;
+   cursor: text;
+}
+
